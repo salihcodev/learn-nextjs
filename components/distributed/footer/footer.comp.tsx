@@ -5,16 +5,16 @@ import React from 'react';
 import { FooterProps } from '../../../common/interfaces/components/distributed/footer/footer.interface';
 
 // COMPONENT::
-const Footer: React.VFC<FooterProps> = ({ logo }) => {
+const Footer: React.VFC<FooterProps> = ({ title }) => {
   return (
     <header>
       <section className="logo">
-        <h3>{logo}</h3>
+        <h3>{title}</h3>
       </section>
       <section className="footer-info">
         <p className="copyrights">
           All rights reserved to
-          <a href="https://nextjs.org/">
+          <a href="https://nextjs.org/" target="_blank noopener noreferer">
             <b> @nextjs</b>
           </a>
         </p>

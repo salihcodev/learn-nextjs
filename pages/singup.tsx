@@ -6,17 +6,17 @@ import React from 'react';
 import Layout from '../components/base/layout/layout.comp';
 
 // COMPONENT::
-export default function Home() {
+export default function Signup() {
   return (
     <Layout>
       <React.Fragment>
         <Head>
-          <title>Home</title>
+          <title>Signup</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
 
-        <main className="page home-page">
-          <h1>APP STARTER</h1>
+        <main className="page signup-page">
+          <h1>Signup page</h1>
         </main>
       </React.Fragment>
     </Layout>
