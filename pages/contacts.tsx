@@ -16,7 +16,7 @@ export default function Contact() {
         </Head>
 
         <main className="page contact-page">
-          <h1>Contact page</h1>
+          <h1>Contacts page</h1>
         </main>
       </React.Fragment>
     </Layout>

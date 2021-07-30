@@ -1,3 +1,1 @@
-export interface FooterProps {
-  title: string;
-}
+export interface FooterProps {}

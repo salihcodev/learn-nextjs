@@ -1,4 +1,3 @@
 export interface HeaderProps {
-  logo: string;
-  routesList: string[];
+  routesList: { name: string; path: string }[];
 }

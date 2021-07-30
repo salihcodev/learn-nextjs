@@ -24,6 +24,17 @@ ol {
 }
 
 .page {
-  min-height: 70vh;
+  min-height: 90vh;
   padding-top: 5rem;
+  animation: show_progressively ease-in-out 0.7s;
+}
+
+@keyframes show_progressively {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
