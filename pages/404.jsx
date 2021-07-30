@@ -12,7 +12,7 @@ export default function Home() {
   const router = useRouter();
 
   // stating the component:
-  const [redirectCount, setRedirectCount] = useState(3);
+  const [redirectCount, setRedirectCount] = useState(5);
 
   useEffect(() => {
     setTimeout(() => {
